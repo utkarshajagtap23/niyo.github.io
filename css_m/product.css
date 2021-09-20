@@ -60,7 +60,7 @@ h6 {
   border-radius: 50%;
   right: 15px;
   bottom: 15px;
-  transition: background 0.5s;
+  transition: 0.5s;
   z-index: 11;
 }
 
@@ -234,10 +234,7 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
+
 
 .main-nav,
 .main-nav * {
@@ -666,7 +663,7 @@ h6 {
   color: #8a87b6;
 }
 
-/
+
 /* Features Section
 --------------------------------*/
 
