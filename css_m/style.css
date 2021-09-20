@@ -754,6 +754,11 @@ a:hover {
   .counter-text{
     text-decoration-line: overline underline;
   }
+
+  .about-content p{
+    padding: 30px;
+  }
+
 }
 
 /*======================================
@@ -1569,3 +1574,31 @@ footer .credits a {
 .my-float {
   margin-top: 16px;
 }
+
+.author{
+  color: #e9f724;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.comit{
+  color: #adf724c2;
+  font-size: 40px;
+  font-weight: 450;
+}
+
+.about-content p{
+  color: black;
+  padding-top: 25px;
+  font-style: normal; 
+  font-size: 16px;
+}
+
+/* @media screen and(max-width: 600px) {
+  .about-content p{
+    color: rgb(231, 10, 10);
+    padding-top: 25px;
+    font-style: normal; 
+    font-size: 16px;}
+} */
+

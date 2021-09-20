@@ -1,23 +1,3 @@
-/* Default Template Styles */
-
-/* Typography */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Background Colors */
-
 .background-primary, .primary-color-primary .background-primary {
   background-color: #2f6800ab !important;
 }
@@ -129,7 +109,7 @@
       margin-right: 0.625rem;
       max-width: 100%;
       text-align: center;
-      vertical-align: middle;
+      /* vertical-align: middle; */
     }
     .nav-text::after {
       color: #002633;
