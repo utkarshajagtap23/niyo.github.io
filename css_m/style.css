@@ -738,7 +738,7 @@ a:hover {
   .vid-bg{
     display: none;
   }
-
+  
   .whats-app{
     display: none;
   }
@@ -888,10 +888,7 @@ a:hover {
   text-decoration: none;
   border: 4px solid #9dff00;
   margin-bottom: 20px;
-  background-image: url(img/prod1_h.jpg);
-    background-size: cover;
-  
-  
+  background-size: cover; 
 }
 
 .inner {
@@ -900,9 +897,10 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-  background: white;
+  background: rgba(200, 255, 0, 0.507);
   box-sizing: border-box;
-  padding: 40px;
+  padding: 5px;
+  margin: 80px;
   
   
 }
@@ -921,18 +919,9 @@ a:hover {
 }
 
 .subtitle {
-  color: #00ff55;
+  color: #003311;
   text-align: center;
 }
-
-.card2 {
-  background-image: url(img/prod2_h.jpeg);
-}
-
-.card3 {
-  background-image: url(img/prod3_h.jpeg);
-}
-
 /* ==============================================product mobile view end======================================================== */
 
 @media screen and (min-width: 900px){
@@ -1097,9 +1086,6 @@ a:hover {
 //--//-->  service card end
 ======================================*/
 
-
-
-
 /*======================================
 //--//-->   COUNTER
 ======================================*/
@@ -1193,10 +1179,6 @@ a:hover {
   .single-service_career .content_career:hover{
       height: 100px;
   }
-
-
-
-
   /* career mobile view start */
   @media screen and (max-width: 600px){
   .single-service_career .content_career p{

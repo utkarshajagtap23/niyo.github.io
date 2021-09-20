@@ -1,27 +1,31 @@
 *{
     margin: 0px;
  } 
- 
- .main_main{
-     
-         width: 100%;
-         margin-top: 70px;
+.main_main{     
+  width: 100%;
+  margin-top: 20px;
  }
- .box{
+.box{
   width: 25%;
   float: left;
-  padding: 15px;  
+  padding: 20px;  
   display: block;
   }
  
- img{
-  width: 100%;
- border-radius: 4px;
+img{
+ width: 100%;
+ border-radius: 10px;
+}
  
+img:hover{
+   transform: scale(1.2,1.2);
+   transition: .4s transform;  
  }
- 
- img:hover{
-   transform: scale(1.4,1.4);
-   transition: .4s transform;
-  
- }
+
+@media screen and (max-width: 600px) {
+  .box{
+    width: 50%;
+    display: block;
+    padding: 10px;
+  }  
+}
