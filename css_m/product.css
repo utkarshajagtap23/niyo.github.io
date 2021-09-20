@@ -203,6 +203,45 @@ h6 {
   font-weight: 700;
 }
 
+#intro .intro-info h1{
+  color: rgb(70, 124, 0);
+  font-size: 45px;
+  font-weight: 600;
+  /* display: none; */
+}
+
+@media screen and (min-width: 1000px) {
+  #intro .intro-info h1{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #intro .intro-info h2 {
+    color: #216900;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 200;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .why-us-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .row counters{
+    display: none;
+  }  
+}
+
+
+
+
+
 #intro .intro-info h2 span {
   color: #68dc1b;
 }
@@ -243,7 +282,7 @@ h6 {
   list-style: none;
 }
 
-.main-nav > ul > li {
+/* .main-nav > ul > li {
   position: relative;
   white-space: nowrap;
   float: left;
@@ -332,7 +371,7 @@ h6 {
   content: "\f105";
   position: absolute;
   right: 15px;
-}
+} */
 
 /* Mobile Navigation */
 
@@ -408,6 +447,7 @@ h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
+  display: none;
 }
 
 .mobile-nav-toggle i {
@@ -1195,7 +1235,10 @@ h6 {
   #faq #faq-list i {
     top: 13px;
   }
+
 }
+
+
 
 @media (max-width: 767px) {
   #intro {
